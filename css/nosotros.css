@@ -12,8 +12,12 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #ffffff;
 }
 
-#all_nosotros {
+.all_nosotros {
+  position: absolute;
   background-color: #111927;
+  margin: 0;
+  padding: 0;
+  left: 0;
 }
 #nosotros_title {
   font-family: sans-serif;

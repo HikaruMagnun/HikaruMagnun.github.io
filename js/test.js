@@ -1,11 +1,18 @@
-function mostrarInicio() {
-  document.getElementById("inicioContenido").style.display = "block";
-  document.getElementById("categoriasContenido").style.display = "none";
+function iniciar() {
+  cargarContenido("Inicio.html");
+}
+const elementos = document.querySelectorAll(".menu_pestaña_elememt");
+
+elementos.forEach((elemento) => {
+  elemento.addEventListener("mouseover", cambiarColor);
+  elemento.addEventListener("mouseout", restaurarColor);
+});
+function cambiarColor() {
+  this.style.backgroundColor = "#192944";
 }
 
-function mostrarCategorias() {
-  document.getElementById("inicioContenido").style.display = "none";
-  document.getElementById("categoriasContenido").style.display = "block";
+function restaurarColor() {
+  this.style.backgroundColor = "#111927";
 }
 
 function cargarContenido(archivo) {

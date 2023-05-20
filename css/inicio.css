@@ -1,4 +1,5 @@
-#all_inicio {
+.all_inicio {
+  position: absolute;
   background-color: #141d2b;
   padding: 0;
 }
