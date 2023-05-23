@@ -4,7 +4,7 @@
 }
 
 .carrito_body {
-  background-color: #141d2b;
+  background-color: #132849;
 }
 
 .carrito_body::-webkit-scrollbar {
@@ -193,7 +193,7 @@ ul {
   display: none;
 }
 
-.carrito_mensaje input{
+.carrito_mensaje input {
   padding: 10px 20px;
   background-color: #ff8282;
   color: #000000;
@@ -205,7 +205,7 @@ ul {
   font-size: 15px;
 }
 
-.carrito_mensaje input:hover{
+.carrito_mensaje input:hover {
   background-color: #f70000;
   color: #ffffff;
 }
